@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Noto+Serif:wght@400;700&family=Raleway:wght@500&display=swap');
+
+header {
+    text-align: center;
+    font-family: "Lato";
+    line-height: 25%;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-size: max(35px, 7vw);
+    font-style: bold;
+}
+
+header h2 {
+    font-size: 25px;
+}
+
+.content {
+    width: min(1000px,80vw);
+    margin: auto;
+    margin-top: 2%;
+    border: 5px solid black;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+body {
+    background-color: rgb(240, 240, 240);
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 300;
+}
