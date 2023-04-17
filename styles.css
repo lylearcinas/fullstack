@@ -20,6 +20,15 @@ header h2 {
     font-size: max(30px,3vw);
 }
 
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
 .content {
     width: min(1000px,80vw);
     margin: auto;
@@ -109,6 +118,27 @@ body b {
     color: black;
 }
 
+.bio a {
+    font-size: 25px;
+    max-width: 300px;
+    width: 100%;
+    height: 50px;
+    border: 5px solid black;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.bio a:hover {
+    background-color: black;
+    color:white;
+    transition: 300ms;
+    cursor:pointer;
+}
 
 .shortcuts a:hover {
     background-color: black;
